@@ -61,7 +61,13 @@ TOKEN_SECRET='tu_token_secreto_de_64_caracteres'
 API_PUBLIC_ROUTE='ruta_al_back'
 ```
 
-### 3. Ejecutar el proyecto
+### 3. Creación de base de datos
+
+#### Para un correcto funcionamiento:
+
+Deberás crear un archivo llamado `db.json` en la carpeta `backend/config`, de lo contrario no será posible el funcionamiento de la App.
+
+### 4. Ejecutar el proyecto
 
 #### Para ejecutar el frontend:
 
@@ -94,6 +100,7 @@ El proyecto está organizado en dos carpetas principales:
 
 - Asegúrate de que tanto el **frontend** como el **backend** estén ejecutándose simultáneamente para que la comunicación entre ambos funcione correctamente.
 - En el archivo `.env` del frontend, `REACT_APP_API_ROUTE` debe apuntar a la URL del backend.
+- En caso de que requieras la documentación del API la podrás encontrar en https://documenter.getpostman.com/view/9457476/2sAYdoFSyq.
 
 ---
 

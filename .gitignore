@@ -57,6 +57,7 @@ yarn-error.log*
 
 # Configuration files
 /backend/config/db.json
+/backend/assets/*
 
 # Logs
 /backend/logs

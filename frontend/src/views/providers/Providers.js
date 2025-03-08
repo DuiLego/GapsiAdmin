@@ -86,6 +86,10 @@ const Providers = () => {
         }));
     }, []);
 
+    //Patron de diseño:
+
+    //Aqui estamos usando "Observer Pattern" para la visualizacion y ajsute de informacion cuando cambia la consulta de proveedores
+
     useEffect(() => {
         setProviders(list);
     }, [list]);
