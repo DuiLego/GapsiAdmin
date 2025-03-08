@@ -55,6 +55,9 @@ yarn-error.log*
 /backend/.env.test.local
 /backend/.env.production.local
 
+# Configuration files
+/backend/config/db.json
+
 # Logs
 /backend/logs
 /backend/*.log

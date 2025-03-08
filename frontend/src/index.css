@@ -11,3 +11,112 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.centrado-vertical {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor_imagen_perfil {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  background: #fff;
+  border: 3px solid #005DB9;
+}
+
+.contenedor_imagen{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#imagen_perfil {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Sign Up */
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  background: #fff;
+  margin-bottom: 25px;
+  border: 5px solid #005DB9;
+}
+
+.img-wrap{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-upload:before{
+  content: "";
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900;
+  font-size: 90px;
+  position: absolute;
+  padding-top: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #005DB9;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.img-upload:hover:before{
+  opacity: 1;
+}
+
+#img-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Loader */
+.loader_container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(1,1,1,0.6);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation_container {
+  margin-top: -20px;
+}
+
+/* Backgrounds */
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #005DB9 !important;
+}
