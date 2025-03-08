@@ -67,6 +67,13 @@ API_PUBLIC_ROUTE='ruta_al_back'
 
 Deberás crear un archivo llamado `db.json` en la carpeta `backend/config`, de lo contrario no será posible el funcionamiento de la App.
 
+```plaintext
+{
+  "users": [],
+  "providers": []
+}
+```
+
 ### 4. Ejecutar el proyecto
 
 #### Para ejecutar el frontend:
